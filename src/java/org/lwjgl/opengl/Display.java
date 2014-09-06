@@ -339,7 +339,6 @@ public final class Display {
 		if ( parent != null ) {
 			parent.removeComponentListener(component_listener);
 		}
-		releaseDrawable();
 
 		// Automatically destroy keyboard & mouse
 		if ( Mouse.isCreated() ) {
